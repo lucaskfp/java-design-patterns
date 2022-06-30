@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Orcamento {
     private final double valor;
-    private final List<Item> itens;
+    private List<Item> itens;
 
     public Orcamento(double valor) {
         this.valor = valor;
