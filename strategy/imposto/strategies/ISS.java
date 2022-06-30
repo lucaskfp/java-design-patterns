@@ -1,7 +1,7 @@
-package strategy.strategies;
+package strategy.imposto.strategies;
 
-import strategy.Imposto;
-import strategy.Orcamento;
+import strategy.imposto.Imposto;
+import strategy.imposto.Orcamento;
 
 public class ISS implements Imposto {
 

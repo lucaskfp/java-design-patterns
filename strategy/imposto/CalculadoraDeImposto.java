@@ -1,4 +1,4 @@
-package strategy;
+package strategy.imposto;
 
 public class CalculadoraDeImposto {
 
