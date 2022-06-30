@@ -4,3 +4,4 @@
 
 - Strategy
 - Chain of responsability
+- Themplate method
