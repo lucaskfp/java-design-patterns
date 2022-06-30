@@ -1,8 +1,5 @@
 package strategy.investimento;
 
-import java.util.Random;
-
-import strategy.imposto.CalculadoraDeImposto;
 import strategy.investimento.strategies.Arrojado;
 import strategy.investimento.strategies.Conservador;
 import strategy.investimento.strategies.Moderado;
