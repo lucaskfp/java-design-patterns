@@ -1,13 +1,14 @@
 package chain_of_responsability;
 
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Orcamento {
     private final double valor;
-    private List<Item> itens;
+    private List<Item> itens = new ArrayList<>();
 
-    public Orcamento(double valor) {
+    public Orcamento(
+            double valor) {
         this.valor = valor;
     }
 
@@ -16,11 +17,11 @@ public class Orcamento {
     }
 
     public void adicionaItem(Item item) {
-        this.itens.add(item);
+        itens.add(item);
     }
 
     public List<Item> getItens() {
-        return Collections.unmodifiableList(this.itens);
+        return itens;
     }
 
 }
